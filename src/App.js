@@ -89,7 +89,7 @@ class App extends Component {
           <label>
             <input
               type="checkbox"
-              defaultChecked={this.stateIncisOnMailingList}
+              defaultChecked={this.state.isOnMailingList}
               onChange={(event) =>
                 this.setState({ isOnMailingList: event.target.checked })
               }
